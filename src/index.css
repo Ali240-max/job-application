@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 580px;
+  --breakpoint-us: 465px;
+  /* Federal Blue */
+  --color-fb100: #010113;
+  --color-fb200: #010226;
+  --color-fb300: #020338;
+  --color-fb400: #02044b;
+  --color-fb500: #03045e;
+  --color-fb600: #0508ae;
+  --color-fb700: #0f12f8;
+  --color-fb800: #5f61fa;
+  --color-fb900: #afb0fd;
+
+  /* Marian Blue */
+  --color-mb100: #000c1b;
+  --color-mb200: #011836;
+  --color-mb300: #012451;
+  --color-mb400: #02306d;
+  --color-mb500: #023e8a;
+  --color-mb600: #035cd1;
+  --color-mb700: #2381fc;
+  --color-mb800: #6cabfd;
+  --color-mb900: #b6d5fe;
+
+  /* Honolulu Blue */
+  --color-hb100: #001825;
+  --color-hb200: #003049;
+  --color-hb300: #00486e;
+  --color-hb400: #005f93;
+  --color-hb500: #0077b6;
+  --color-hb600: #00a2f9;
+  --color-hb700: #3bbaff;
+  --color-hb800: #7cd1ff;
+  --color-hb900: #bee8ff;
+
+  /* Blue Green */
+  --color-bg100: #001e28;
+  --color-bg200: #003c50;
+  --color-bg300: #005a77;
+  --color-bg400: #00779f;
+  --color-bg500: #0096c7;
+  --color-bg600: #06c1ff;
+  --color-bg700: #44d0ff;
+  --color-bg800: #83e0ff;
+  --color-bg900: #c1efff;
+
+  /* Pacific Cyan */
+  --color-pc100: #00242b;
+  --color-pc200: #004756;
+  --color-pc300: #006b81;
+  --color-pc400: #008fab;
+  --color-pc500: #00b4d8;
+  --color-pc600: #12d8ff;
+  --color-pc700: #4ee1ff;
+  --color-pc800: #89ebff;
+  --color-pc900: #c4f5ff;
+
+  /* Vivid Sky Blue */
+  --color-vsb100: #082d34;
+  --color-vsb200: #105a69;
+  --color-vsb300: #17879d;
+  --color-vsb400: #1fb4d1;
+  --color-vsb500: #48cae4;
+  --color-vsb600: #6dd5e9;
+  --color-vsb700: #92dfef;
+  --color-vsb800: #b6eaf4;
+  --color-vsb900: #dbf4fa;
+
+  /* Non Photo Blue 1 */
+  --color-npb1100: #0a3a43;
+  --color-npb1200: #137586;
+  --color-npb1300: #1dafc9;
+  --color-npb1400: #4ccfe6;
+  --color-npb1500: #90e0ef;
+  --color-npb1600: #a6e7f2;
+  --color-npb1700: #bcedf5;
+  --color-npb1800: #d2f3f9;
+  --color-npb1900: #e9f9fc;
+
+  /* Non Photo Blue 2 */
+  --color-npb2100: #0a3f4a;
+  --color-npb2200: #147e93;
+  --color-npb2300: #1ebddd;
+  --color-npb2400: #65d4ea;
+  --color-npb2500: #ade8f4;
+  --color-npb2600: #beedf6;
+  --color-npb2700: #cff1f8;
+  --color-npb2800: #dff6fb;
+  --color-npb2900: #effafd;
+
+  /* Light Cyan */
+  --color-lc100: #0a444f;
+  --color-lc200: #15889f;
+  --color-lc300: #2ac4e3;
+  --color-lc400: #79daee;
+  --color-lc500: #caf0f8;
+  --color-lc600: #d4f3f9;
+  --color-lc700: #dff6fb;
+  --color-lc800: #e9f9fc;
+  --color-lc900: #f4fcfe;
+
+  --color-lb500: #ade8f4;
+  --color-lb400: #65d4ea;
+}
