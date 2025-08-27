@@ -8,7 +8,7 @@ function NoJobs() {
         <Plus className="w-9 h-9 text-gray-500" />
       </div>
       <h1 className="text-2xl font-semibold">No Job applications yet</h1>
-      <span className="text-gray-600 text-md">
+      <span className="text-gray-600 text-md text-center">
         Start tracking your job applications by adding your first one.
       </span>
       <Link
