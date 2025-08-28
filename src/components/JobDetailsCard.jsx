@@ -1,5 +1,6 @@
 import { Building2, Calendar } from "lucide-react";
 import { format } from "date-fns";
+import { Link } from "react-router";
 
 function JobDetailsCard({
   jobTitle,
@@ -7,6 +8,7 @@ function JobDetailsCard({
   applicationDate,
   applicationStatus,
   companyName,
+  id,
 }) {
   const jobDate = format(new Date(applicationDate), "MMM d, yyyy");
   const styles = {
@@ -48,9 +50,12 @@ function JobDetailsCard({
           <p className="text-gray-600 text-md">
             No notes added for this job application
           </p>
-          <button className="text-blue-500 font-semibold cursor-pointer px-2 py-2 transition-all duration-300 hover:bg-blue-100 rounded-lg">
+          <Link
+            className="text-blue-500 font-semibold cursor-pointer px-2 py-2 transition-all duration-300 hover:bg-blue-100 rounded-lg"
+            to={`/edit-job/${id}`}
+          >
             Add some notes
-          </button>
+          </Link>
         </div>
       )}
     </div>
