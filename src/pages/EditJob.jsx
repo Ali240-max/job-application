@@ -5,7 +5,7 @@ import EditJobForm from "../components/EditJobForm";
 function AddJob() {
   const navigate = useNavigate();
   return (
-    <div className="px-8 py-8 flex flex-col gap-5">
+    <div className="px-8 py-8 flex flex-col gap-5 max-sm:px-4">
       <div className="flex gap-2 items-center">
         <ArrowLeft
           size={35}

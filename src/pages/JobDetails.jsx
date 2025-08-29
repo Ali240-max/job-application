@@ -12,7 +12,7 @@ function JobDetails() {
   const jobDate = format(new Date(applicationDate), "MMM d, yyyy");
 
   return (
-    <div className="px-8 max-sm:px-4 py-8 flex flex-col gap-5 ">
+    <div className="px-8 max-sm:px-4 py-8 flex flex-col gap-5 max-sm:px-4 ">
       <JobDetailsHeader id={id} />
       <JobDetailsCard
         jobTitle={jobTitle}
